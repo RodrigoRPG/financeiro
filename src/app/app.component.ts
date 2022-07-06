@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   saldo = 'O valor do saldo é 0'
-  tempo = 'o tempo não para'
-  OlaMundo = 'Olááááááá Mundooooooo!!!!!!!'
+  tempo = 'O tempo não para persistência é necessária'
+  OlaMundo = 'Olá Mundo!'
   title = 'financeiro';
 }
