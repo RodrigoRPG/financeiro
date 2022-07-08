@@ -21,12 +21,16 @@
     "lib": [
       "es2020",
       "dom"
-    ]
+    ],
+    "noImplicitAny": false, //Ignorar ANY
+    "strictPropertyInitialization": false // Ignorar declaração de variável no construtor
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
     "strictInjectionParameters": true,
     "strictInputAccessModifiers": true,
-    "strictTemplates": true
+    "strictTemplates": true,
+    "strictNullChecks": false, //Ignorar NULL
+    "strictDomEventTypes": false //Ignorar erro EventTarget
   }
 }
